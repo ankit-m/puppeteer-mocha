@@ -1,0 +1,18 @@
+{
+  "name": "puppeteer-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test",
+    "server": "http-server src"
+  },
+  "author": "muchhalaankit@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "4.1.2",
+    "http-server": "0.10.0",
+    "mocha": "4.0.1",
+    "puppeteer": "0.13.0"
+  }
+}
