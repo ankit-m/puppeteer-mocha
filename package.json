@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive test",
+    "test": "mocha test/bootstrap.js --recursive test",
     "server": "http-server src"
   },
   "author": "muchhalaankit@gmail.com",
@@ -12,6 +12,7 @@
   "dependencies": {
     "chai": "4.1.2",
     "http-server": "0.10.0",
+    "lodash": "4.17.4",
     "mocha": "4.0.1",
     "puppeteer": "0.13.0"
   }
