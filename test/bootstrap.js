@@ -5,8 +5,7 @@ const globalVariables = _.pick(global, ['browser', 'expect']);
 
 // puppeteer options
 const opts = {
-  headless: false,
-  slowMo: 100,
+  headless: true,
   timeout: 10000
 };
 
